@@ -1,0 +1,24 @@
+2011/01/09 23:27:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /srv/users/martyn/yii.bikerwitch.org.uk/public/framework/gii/GiiModule.php:163
+Stack trace:
+#0 /srv/users/martyn/yii.bikerwitch.org.uk/public/framework/web/CController.php(255): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /srv/users/martyn/yii.bikerwitch.org.uk/public/framework/web/CWebApplication.php(324): CController->run('')
+#2 /srv/users/martyn/yii.bikerwitch.org.uk/public/framework/web/CWebApplication.php(121): CWebApplication->runController('gii')
+#3 /srv/users/martyn/yii.bikerwitch.org.uk/public/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /srv/users/martyn/yii.bikerwitch.org.uk/public/htdocs/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/gii
+2011/01/09 23:28:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /srv/users/martyn/yii.bikerwitch.org.uk/public/framework/gii/GiiModule.php:163
+Stack trace:
+#0 /srv/users/martyn/yii.bikerwitch.org.uk/public/framework/web/CController.php(255): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /srv/users/martyn/yii.bikerwitch.org.uk/public/framework/web/CWebApplication.php(324): CController->run('')
+#2 /srv/users/martyn/yii.bikerwitch.org.uk/public/framework/web/CWebApplication.php(121): CWebApplication->runController('gii')
+#3 /srv/users/martyn/yii.bikerwitch.org.uk/public/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /srv/users/martyn/yii.bikerwitch.org.uk/public/htdocs/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/gii/
+2011/01/09 23:29:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /srv/users/martyn/yii.bikerwitch.org.uk/public/framework/gii/GiiModule.php:163
+Stack trace:
+#0 /srv/users/martyn/yii.bikerwitch.org.uk/public/framework/web/CController.php(255): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /srv/users/martyn/yii.bikerwitch.org.uk/public/framework/web/CWebApplication.php(324): CController->run('')
+#2 /srv/users/martyn/yii.bikerwitch.org.uk/public/framework/web/CWebApplication.php(121): CWebApplication->runController('gii')
+#3 /srv/users/martyn/yii.bikerwitch.org.uk/public/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /srv/users/martyn/yii.bikerwitch.org.uk/public/htdocs/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/gii/
